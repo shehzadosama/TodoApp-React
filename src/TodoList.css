@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+ background-image: url("banner1.jpg");
+  font-family: sans-serif;
+}
+
+.todoListMain {
+    width:500px;
+    margin : 0px auto;
+    background-color: rgba(4, 4, 4, 0.56);
+ box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+}
+
+.todoListMain .header input {
+  padding: 5px;
+  font-size: 14px;
+  /*border: 2px solid #FFF;*/
+}
+
+.todoListMain .header input:focus {
+  padding: 5px;
+  font-size: 14px;
+  border: 2px solid #000;
+  background-color: yellow;
+}
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 15px;
+   font-weight: bold;
+  margin: 20px;
+  /*background-color: rgba(4, 4, 4, 0.56);*/
+  background: #fff;
+    color: #000;
+ /*box-shadow: 0px 35px 44px -22px #1f181b;*/
+ /*padding: 60px 40px;*/
+
+   border: none;
+  
+}
+ 
+.todoListMain .header button:hover {
+  background-color: #db418b;
+  border: none;
+  cursor: pointer;
+}
+
+
+.todoListMain .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 255px;
+}
+ 
+.todoListMain .theList li {
+    width:300px;
+  color: #333;
+  background-color: #e2d8ce;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 120px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.todo {
+ 
+  height:120px;
+}
